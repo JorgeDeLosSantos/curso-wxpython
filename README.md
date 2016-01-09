@@ -1,18 +1,16 @@
-Curso de wxPython
-=================
+# Curso de wxPython
 
-Códigos del curso de wxPython, disponibles en el canal LAB DLS de YouTube.
---------------------------------------------------------------------------
+Códigos del curso de wxPython, disponible en el canal [LAB DLS](youtube.com/user/lab2dls)
 
-Contenido del curso
--------------------
+### Contenido del curso
 
-* 1
-* 2
+1. Introducción a wxPython
+2. Agregando controles
 
 
 
-
+```
 Jorge De Los Santos
 delossantosmfq@gmail.com
 labdls.blogspot.mx
+```
