@@ -58,7 +58,6 @@ target/
 
 # Images 
 *.png
-*.svg
 
 # Camrec
 *.camproj
