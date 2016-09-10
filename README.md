@@ -9,11 +9,12 @@ Códigos del curso de wxPython, disponible en el canal [LAB DLS](http://www.yout
 3. Introducción a los sizers
 4. Botones (wx.Button)
 5. Campos de texto (wx.TextCtrl & wx.StaticText)
-6. ------
-7. ------
-8. ------
-9. ------
-10. ------
+6. Paneles (wx.Panel)
+7. Menús (wx.Menu & wx.MenuBar)
+8. Editor de texto I (caso práctico)
+9. ListBox
+10. Slider
+11. CheckBox
 
 
 ```
