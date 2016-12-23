@@ -6,16 +6,26 @@ class MiAplicacion(wx.Frame):
         wx.Frame.__init__(self,parent=parent,title=title,size=(300,200))
         sz = wx.BoxSizer(wx.VERTICAL)
         
-        sld1 = wx.Slider(self, -1, 0, 0, 100, style=wx.SL_LABELS)
-        sld2 = wx.Slider(self, -1, 0, 0, 100, style=wx.SL_VERTICAL)
-        self.SetBackgroundColour(sld1.GetBackgroundColour())
+        self.sld1 = wx.Slider(self, -1, 0, 0, 10, style=wx.SL_VERTICAL)
+        self.sld2 = wx.Slider(self, -1, 0, 0, 10, style=wx.SL_AUTOTICKS|wx.SL_LABELS)
+        self.txt = wx.StaticText(self, -1)
         
-        sz.Add(sld1, 1, wx.EXPAND)
-        sz.Add(sld2, 1, wx.EXPAND)
+        self.SetBackgroundColour(self.sld1.GetBackgroundColour())
+        
+        sz.Add(self.sld1, 1, wx.EXPAND)
+        sz.Add(self.sld2, 1, wx.EXPAND)
+        sz.Add(self.txt, 1, wx.EXPAND)
+        
+        self.Bind(wx.EVT_SLIDER, self.OnSlider, self.sld1)
         
         self.SetSizer(sz)
         self.Centre(True)
         self.Show()
+        
+    def OnSlider(self,event):
+        a = self.sld1.GetValue()
+        b = self.sld2.GetValue()
+        self.txt.SetLabel("%s"%(a+b))
         
 
 if __name__=='__main__':

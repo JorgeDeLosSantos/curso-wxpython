@@ -14,12 +14,19 @@ Códigos del curso de wxPython, disponible en el canal [LAB DLS](http://www.yout
 8. Editor de texto I (caso práctico)
 9. ListBox (wx.ListBox)
 10. Slider (wx.Slider)
-11. CheckBox (wx.CheckBox)
-
-
+11. Introducción a wxFormBuilder
+12. CheckBox (wx.CheckBox)
+13. RadioButton y RadioBox (wx.RadioButton & wx.RadioBox)
+14. SpinCtrl (wx.SpinCtrl)
+15. Cuadros de diálogos (wx.MessageBox & wx.MessageDialog)
+16. Selector de archivos (wx.FileDialog)
+17. ComboBox (wx.ComboBox)
+18. Imágenes (wx.StaticBitmap)
+19. Tablas (wx.grid.Grid)
+20. Notebooks (wx.Notebook)
 
 ```
-Jorge De Los Santos
+Pedro Jorge De Los Santos
 delossantosmfq@gmail.com
-labdls.blogspot.mx
+jorgedelossantos.github.io // numython.github.io
 ```

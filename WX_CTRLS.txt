@@ -1,31 +1,35 @@
-wx.StaticText
-wx.TextCtrl
-wx.Button
-wx.ListBox
-wx.CheckBox
+- wx.StaticText
+- wx.TextCtrl
+- wx.Button 
+- wx.ListBox
+- wx.CheckBox
 wx.Image
 wx.BitmapButton
 wx.Icon
-wx.SpinCtrl
+- wx.SpinCtrl
 wx.Gauge
-wx.RadioButton
-wx.RadioBox
+- wx.RadioButton
+- wx.RadioBox
 wx.Choice
-wx.ComboBox
+- wx.ComboBox
+- wx.StaticBitmap
 
-wx.MessageBox 
-wx.MessageDialog
+- wx.MessageBox 
+- wx.MessageDialog
 wx.TextEntryDialog
-wx.GetTextFromUser()
-wx.GetPasswordFromUser()
-wx.GetNumberFromUser()
+wx.GetTextFromUser
+wx.GetPasswordFromUser
+wx.GetNumberFromUser
 wx.SingleChoiceDialog
 wx.ProgressDialog
 
-wx.FileDialog
+- wx.FileDialog
 wx.FileSelector
 wx.DirDialog
 
 wx.FontDialog
 wx.ColourDialog
+
+- wx.grid.Grid
+- wx.Notebook
 
