@@ -1,6 +1,6 @@
 # Curso de wxPython
 
-Códigos del curso de wxPython, disponible en el canal [LAB DLS](http://www.youtube.com/user/lab2dls)
+Códigos del curso de wxPython, disponible en el canal [Numython](http://www.youtube.com/user/lab2dls)
 
 ### Contenido del curso
 
