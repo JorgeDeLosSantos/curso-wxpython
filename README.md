@@ -2,6 +2,8 @@
 
 Códigos del curso de wxPython, disponible en el canal [Numython](http://www.youtube.com/user/lab2dls)
 
+[![x](https://i.ytimg.com/vi/Ha1A7PuXcwA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDW5lHeqBuLXWv8yl1_Zzn_jhq4kA)](https://www.youtube.com/playlist?list=PLjApqg2Zsw32zpQRLImqvVHXXbt0VnNTy)
+
 ### Contenido del curso
 
 1. Introducción a wxPython
@@ -17,13 +19,13 @@ Códigos del curso de wxPython, disponible en el canal [Numython](http://www.you
 11. Introducción a wxFormBuilder
 12. CheckBox (wx.CheckBox)
 13. RadioButton y RadioBox (wx.RadioButton & wx.RadioBox)
-14. SpinCtrl (wx.SpinCtrl)
-15. Cuadros de diálogos (wx.MessageBox & wx.MessageDialog)
-16. Selector de archivos (wx.FileDialog)
-17. ComboBox (wx.ComboBox)
-18. Imágenes (wx.StaticBitmap)
-19. Tablas (wx.grid.Grid)
-20. Notebooks (wx.Notebook)
+14. SpinCtrl (wx.SpinCtrl) [POR REALIZAR]
+15. Cuadros de diálogos (wx.MessageBox & wx.MessageDialog) [POR REALIZAR]
+16. Selector de archivos (wx.FileDialog) [POR REALIZAR]
+17. ComboBox (wx.ComboBox) [POR REALIZAR]
+18. Imágenes (wx.StaticBitmap) [POR REALIZAR]
+19. Tablas (wx.grid.Grid) [POR REALIZAR]
+20. Notebooks (wx.Notebook) [POR REALIZAR]
 
 ```
 Pedro Jorge De Los Santos
