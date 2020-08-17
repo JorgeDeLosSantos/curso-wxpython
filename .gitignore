@@ -56,7 +56,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# Images 
+# Images [Out] 
 *.png
 
 # Camrec
@@ -68,6 +68,16 @@ target/
 *.mp4
 *.avi
 *.flv
+*.mkv
+
+# Experimental files
+Clase 14/
+Clase 15/
+Clase 16/
+Clase 17/
+Clase 18/
+Clase 19/
+Clase 20/
 
 
 
