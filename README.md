@@ -30,5 +30,5 @@ Códigos del curso de wxPython, disponible en el canal [Numython](http://www.you
 ```
 Pedro Jorge De Los Santos
 delossantosmfq@gmail.com
-jorgedelossantos.github.io // numython.github.io
+numython.github.io
 ```
