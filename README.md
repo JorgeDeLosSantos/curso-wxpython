@@ -19,8 +19,8 @@ Códigos del curso de wxPython, disponible en el canal [Numython](http://www.you
 11. Introducción a wxFormBuilder
 12. CheckBox (wx.CheckBox)
 13. RadioButton y RadioBox (wx.RadioButton & wx.RadioBox)
-14. SpinCtrl (wx.SpinCtrl) [POR REALIZAR]
-15. Cuadros de diálogos (wx.MessageBox & wx.MessageDialog) [POR REALIZAR]
+14. SpinCtrl (wx.SpinCtrl) 
+15. Cuadros de diálogos (wx.MessageBox & wx.MessageDialog)
 16. Selector de archivos (wx.FileDialog) [POR REALIZAR]
 17. ComboBox (wx.ComboBox) [POR REALIZAR]
 18. Imágenes (wx.StaticBitmap) [POR REALIZAR]
