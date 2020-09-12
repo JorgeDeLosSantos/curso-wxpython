@@ -11,8 +11,8 @@ class MiAplicacion(wx.Frame):
         
         # Controles
         self.input_text = wx.TextCtrl(self, -1, "")
-        self.static_text = wx.StaticText(self, -1, u"")
-        boton = wx.Button(self, -1, u"Botón")
+        self.static_text = wx.StaticText(self, -1, "")
+        boton = wx.Button(self, -1, "Botón")
         
         # Modificando fuente
         font1 = self.input_text.GetFont()
@@ -46,5 +46,5 @@ class MiAplicacion(wx.Frame):
 
 if __name__=='__main__':
     app = wx.App()
-    frame = MiAplicacion(None,u"Curso wxPython")
+    frame = MiAplicacion(None,"Curso wxPython")
     app.MainLoop()

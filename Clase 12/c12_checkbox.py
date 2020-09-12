@@ -7,9 +7,9 @@ class TestFrame(wx.Frame):
         self.sz = wx.BoxSizer(wx.VERTICAL)
         
         # Creating controls
-        self.red = wx.CheckBox(self, -1, u"Red")
-        self.green = wx.CheckBox(self, -1, u"Green")
-        self.blue = wx.CheckBox(self, -1, u"Blue")
+        self.red = wx.CheckBox(self, -1, "Red")
+        self.green = wx.CheckBox(self, -1, "Green")
+        self.blue = wx.CheckBox(self, -1, "Blue")
         
         # Add controls to sizer
         self.sz.Add(self.red, 1, wx.EXPAND|wx.LEFT, 20)
@@ -36,5 +36,5 @@ class TestFrame(wx.Frame):
 
 if __name__=='__main__':
     app = wx.App()
-    frame = TestFrame(None, u"wxCheckBox Demo")
+    frame = TestFrame(None, "wxCheckBox Demo")
     app.MainLoop()

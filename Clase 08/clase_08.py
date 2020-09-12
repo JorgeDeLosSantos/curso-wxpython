@@ -22,7 +22,7 @@ class wxEditor(wx.Frame):
     def initApp(self):
         if self.archivo != "":
             f = open(self.archivo, "r")
-            txt = f.read().decode('utf8')
+            txt = f.read()
             f.close()
             self.editor.SetValue(txt)
         
@@ -50,12 +50,12 @@ class wxEditor(wx.Frame):
         self.Close(True)
         
     def guardar(self,event):
-        self.archivo = raw_input("Nombre del archivo: ")
+        self.archivo = input("Nombre del archivo: ")
         txt = self.editor.GetValue()
         f = open(self.archivo, "w")
-        f.write(txt.encode('utf8'))
+        f.write(txt)
         f.close()
-        print "Guardado..."
+        print("Guardado...")
         
 
 if __name__=='__main__':

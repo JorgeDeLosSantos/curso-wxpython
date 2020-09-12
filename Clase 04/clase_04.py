@@ -6,8 +6,8 @@ class MiAplicacion(wx.Frame):
     def __init__(self,parent,title):
         wx.Frame.__init__(self,parent=parent,title=title,size=(300,200))
         sz = wx.BoxSizer(wx.VERTICAL)
-        boton1 = wx.Button(self, -1, u"OK")
-        boton2 = wx.Button(self, -1, u"NO OK")
+        boton1 = wx.Button(self, -1, "OK")
+        boton2 = wx.Button(self, -1, "NO OK")
         
         # Sizer
         sz.Add(boton1, 1, wx.EXPAND|wx.ALL, 10)
@@ -22,13 +22,13 @@ class MiAplicacion(wx.Frame):
         
     def onClick(self,event):
         label = event.GetEventObject().GetLabel()
-        if label==u"OK":
-            print "Hemos presionado OK"
-        elif label==u"NO OK":
-            print "Hemos presionado NO OK"
+        if label=="OK":
+            print("Hemos presionado OK")
+        elif label=="NO OK":
+            print("Hemos presionado NO OK")
 
 
 if __name__=='__main__':
     app = wx.App()
-    frame = MiAplicacion(None,u"Botón")
+    frame = MiAplicacion(None,"Botón")
     app.MainLoop()

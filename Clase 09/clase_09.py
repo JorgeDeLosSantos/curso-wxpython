@@ -26,5 +26,5 @@ class MiAplicacion(wx.Frame):
 
 if __name__=='__main__':
     app = wx.App()
-    frame = MiAplicacion(None,u"ListBox")
+    frame = MiAplicacion(None,"ListBox")
     app.MainLoop()

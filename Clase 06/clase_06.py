@@ -51,5 +51,5 @@ class MiAplicacion(wx.Frame):
 
 if __name__=='__main__':
     app = wx.App()
-    frame = MiAplicacion(None,u"Paneles")
+    frame = MiAplicacion(None,"Paneles")
     app.MainLoop()

@@ -30,5 +30,5 @@ class MiAplicacion(wx.Frame):
 
 if __name__=='__main__':
     app = wx.App()
-    frame = MiAplicacion(None,u"Slider Demo")
+    frame = MiAplicacion(None,"Slider Demo")
     app.MainLoop()
